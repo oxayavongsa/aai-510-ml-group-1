@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project addresses the significant challenge insurance companies face due to fraudulent claims, which result in financial losses and erode trust in the insurance system. The objective is to develop a dependable predictive model that efficiently detects fraudulent insurance claims by leveraging historical claim data. This model will assist insurance companies in reducing financial losses, enhancing claim processing efficiency, and maintaining fair premium pricing for customers.
+This project aims to tackle the pervasive issue of vehicle insurance fraud, which causes substantial financial losses for insurance companies and erodes consumer trust. Fraudulent claims vary from staged accidents to exaggerated injuries, complicating the claims process and increasing costs. By leveraging historical vehicle and policy data, our objective is to develop a robust predictive model to accurately detect and prevent fraudulent claims. The implementation of this model is intended to help insurance companies minimize financial losses, enhance the efficiency of claims processing, and maintain fair premium pricing for customers.
 
 ## Dataset
 
@@ -24,9 +24,10 @@ The dataset offers a robust sample size for training and evaluating the predicti
 
 ## Project Structure
 
-- **Exploratory Data Analysis (EDA)**: Detailed analysis of the dataset, feature engineering, and visualization of key metrics.
-- **Modeling**: Implementation of multiple machine learning models (Decision Tree, XGBoost, Random Forest, K-Nearest Neighbor) with hyperparameter tuning and evaluation.
-- **Evaluation**: Assessing model performance using accuracy, classification reports, and confusion matrices.
+- <b>Data Preparation:</b> Handle missing values, convert data types, encode categorical variables, and scale numerical features.
+- <b>Feature Engineering:</b> Select relevant features, encode categorical variables using one-hot encoding, and apply SMOTE to handle class imbalance.
+- <b>Model Training and Evaluation:</b> Train and evaluate models (Isolation Forest, Gradient Boosting, Decision Tree, XGBoost, Random Forest, K-Nearest Neighbor, Logistic Regression, and CatBoost) with hyperparameter tuning.
+- <b>Model Comparison:</b> Compare models based on performance metrics, highlighting CatBoost as the top performer.
 
 ## Installation and Usage
 
