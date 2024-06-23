@@ -59,7 +59,7 @@ The dataset offers a robust sample size for training and evaluating the predicti
 
 3. Open the Jupyter Notebook for Exploratory Data Analysis (EDA):
     ```bash
-    jupyter notebook revised-eda.ipynb
+    jupyter notebook Final Project SectionA-Team 1.ipynb
     ```
 
 4. Follow the notebook steps to perform data cleaning, feature selection, and model training.
